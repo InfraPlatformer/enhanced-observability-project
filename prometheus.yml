@@ -1,0 +1,18 @@
+  GNU nano 4.8                                                                        prometheus.yml                                                                                   global:
+  scrape_interval: 5s # How often to scrape targets by default.
+
+scrape_configs:
+  # Scrape fake-metrics
+  - job_name: "fake-metrics"
+    static_configs:
+      - targets: ["fake-metrics:8080"]
+
+  # Scrape Prometheus itself
+  - job_name: "prometheus"
+    static_configs:
+      - targets: ["prometheus:9090"]
+
+
+
+
+
