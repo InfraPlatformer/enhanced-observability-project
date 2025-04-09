@@ -1,0 +1,25 @@
+  GNU nano 4.8                                                                       tempo-config.yaml                                                                                 server:
+  http_listen_port: 3200
+
+distributor:
+  receivers:
+    otlp:
+      protocols:
+        grpc:
+        http:
+
+storage:
+  trace:
+    backend: local
+    local:
+      path: /tmp/tempo/blocks
+    wal:
+      path: /tmp/tempo/wal
+
+
+
+
+
+
+
+
