@@ -1,17 +1,50 @@
-# Observability Stack with Docker Compose
+# enhanced-observability-project
 
-This project sets up an observability stack using Docker Compose, including:
-- **Prometheus**: Metrics collection and monitoring.
-- **Grafana**: Visualization and dashboards.
-- **Loki**: Log aggregation.
-- **Promtail**: Log shipping.
+Enhanced observability project
 
-## Features
-- Pre-configured Prometheus to scrape metrics.
-- Grafana dashboards for visualization.
-- Loki and Promtail for centralized logging.
+## Overview
+
+This repository contains automation scripts and configurations.
+
+## Prerequisites
+
+- See individual files for specific requirements
+
+## Installation
+
+\\\ash
+# Clone the repository
+git clone https://github.com/InfraPlatformer/enhanced-observability-project.git
+cd enhanced-observability-project
+\\\
 
 ## Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/my-observability-project.git
+
+Please refer to individual script documentation for usage instructions.
+
+## Project Structure
+
+\\\
+enhanced-observability-project/
+├── README.md              # This file
+└── .gitignore             # Git ignore rules
+\\\
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## License
+
+This project is licensed under the MIT License.
+
+## Last Updated
+
+2025-09-21
+
+## Author
+
+[Alam Ahmed](https://github.com/InfraPlatformer)
